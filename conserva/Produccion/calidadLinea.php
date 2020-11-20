@@ -9,7 +9,6 @@ if(!isset($_SESSION['usuario'])){
 
 $fcha = date("Y-m-d");
 
-
 extract($_SESSION);
 
 
