@@ -243,7 +243,7 @@ class Imprimir
 
 	function CreacionTarjaPRD_Conserva(){
 		
-		$print_data.="^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR2,2~SD20^JUS^LRN^CI0^XZ";
+		/*$print_data.="^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR2,2~SD20^JUS^LRN^CI0^XZ";
 	    $print_data.= "^XA";
 		$print_data.= "^MMT";
 		$print_data.= "^PW790";
@@ -271,7 +271,7 @@ class Imprimir
 		$print_data.= "^FT80,477^A0N,28,28^FH\^" & CDbl(uma) & "^FS";
 		$print_data.= "^BY5,3,238^FT102,714^BCN,,Y,N";
 		$print_data.= "^FD>;" & Mid(CStr(CDbl(uma)), 1, 12) & ">6" & Mid(CStr(CDbl(uma)), 13, 1) & ">6^FS";
-		$print_data.= "^PQ1,0,1,Y^XZ";
+		$print_data.= "^PQ1,0,1,Y^XZ";*/
 
 	}
 
